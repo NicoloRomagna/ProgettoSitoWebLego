@@ -3,11 +3,11 @@
 ## Descrizione del Progetto
 Questo progetto riguarda la creazione di un sito web dedicato al mondo dei Lego. Il sito presenterà una vasta gamma di prodotti Lego, insieme alle sue storie interessanti.
 
-## Immagini dei Prodotti
+### Immagini dei Prodotti
 Le immagini dei prodotti verranno presentate in gallerie, rendendo facile per i visitatori esplorare le diverse collezioni disponibile.
 
-## Breve Storia dei Lego
+### Breve Storia dei Lego
 I Lego sono stati inventati nel 1932 in Danimarca e hanno assunto una popolarità mondiale. Oggi rappresentano un hobby per le persone di tutte le età.
 
-## Contenuti Aggiuntivi
+### Contenuti Aggiuntivi
 Il sito includerà anche articoli e video che mostrano come costruire diversi modelli Lego.
