@@ -28,7 +28,7 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 - Immagini utili per guidare la costruire di diversi modelli LEGO
 
 ### Tecnologie Utilizzate
-- Backend: Flask
+- Backend: Python
 - Frontend: HTML, CSS
 - Database: SQLite
 
@@ -45,3 +45,7 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 - python run.py
 #### 5. Apri il browser e vai su:
 - http://127.0.0.1:5000/
+
+###### Autore
+#### io
+##### NICO rom
