@@ -47,5 +47,4 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 - http://127.0.0.1:5000/
 
 ###### Autore
-#### io
-##### NICO rom
+Nicolò R.
