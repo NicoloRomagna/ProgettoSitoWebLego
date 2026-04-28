@@ -34,7 +34,7 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 
 ### Installazione e Avvio
 #### 1. Clonare il repository:
-- git clone https://github.com/tuo-username/lego-website.git
+- git clone https://github.com/NicoloRomagna/ProgettoSitoWebLego.git
 #### 2. Entrare nella cartella del progetto:
 - cd SitoWebLego
 #### 3. Installare le dipendenze:
