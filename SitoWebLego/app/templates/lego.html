@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <div class="d-flex align-items-center mb-4">
+
+    <img src="{{ url_for('static', filename='lego.gif') }}"
+         style="width: 130px; height: 90px; margin-right: 15px;">
+
+    <h2>Tutorial Lego</h2>
+
+    </div>
+
+    <div class="mt-4">
+        <iframe width="800" height="450"
+            src="https://access.workspace.google.com/remediate?urlparams=Aa6w02EvrTajD46Vfo_VOaUYAh6tJ8lwiSDGDMxMOydHBg9NEUBdCNIvZuG7okgXqhGsPK1M5wv9f0VjiVu44sY&continue=https://www.youtube.com/watch?v%3DfUNTHxVEbRA" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <img src="https://manuals.handleidingkwijt.com/thumbs/220893.png">
+        <img src="https://manuals-us.handleidingkwijt.com/thumbs/220865.png">
+        <img src="https://manuals.handleidingkwijt.com/thumbs/220893.png">
+    </div>
+
+</div>
+
+{% endblock %}
