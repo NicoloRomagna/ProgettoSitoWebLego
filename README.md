@@ -1,7 +1,7 @@
 # Progetto Sito Web Lego
 
 ## Descrizione del Progetto
-Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEGO, pensato per offrire agli utenti un’esperienza completa: dalla scoperta dei prodotti alla possibilità di acquistare singoli pezzi, fino all’apprendimento di tecniche di costruzione.
+Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEGO, pensato per offrire agli utenti un’esperienza completa: dalla scoperta dei prodotti alla possibilità di acquistare singoli pezzi, fino alla visione di creazioni Lego.
 
 ### Funzionalità principali
 #### Autenticazione Utente
@@ -23,9 +23,8 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 - Racconto delle origini dell’azienda
 - Evoluzione dei prodotti e materiali nel corso del tempo
 
-#### Tutorial
-- Video dimostrativi
-- Immagini utili per guidare la costruire di diversi modelli LEGO
+#### Invenzioni
+- Immagini di creazioni LEGO
 
 ### Tecnologie Utilizzate
 - Backend: Python
@@ -38,11 +37,10 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 #### 2. Entrare nella cartella del progetto:
 - cd SitoWebLego
 #### 3. Installare le dipendenze:
-- pip install flask
+- pip install flask, flask_login e flask_sqlalchemy
 - pip install -r requirements.txt
 #### 4. Avviare l’applicazione:
-- python setup_db.py (database)
+- python setup_db.py (database --> instance)
 - python run.py
 #### 5. Apri il browser e vai su:
 - http://127.0.0.1:5000/
-
