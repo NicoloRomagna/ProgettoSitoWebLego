@@ -34,13 +34,13 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 ### Installazione e Avvio
 #### 1. Clonare il repository:
 - git clone https://github.com/NicoloRomagna/ProgettoSitoWebLego.git
-#### 2. Entrare nella cartella del progetto:
-- cd SitoWebLego
-#### 3. Installare le dipendenze:
+#### 2. Installare le dipendenze:
 - pip install flask, flask_login e flask_sqlalchemy
 - pip install -r requirements.txt
-#### 4. Avviare l’applicazione:
+#### 3. Avviare l’applicazione:
 - python setup_db.py (database --> instance)
 - python run.py
-#### 5. Apri il browser e vai su:
+#### 4. Apri il browser e vai su:
 - http://127.0.0.1:5000/
+
+Io non ho fatto il deploy del progetto
