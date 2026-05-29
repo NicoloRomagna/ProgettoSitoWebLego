@@ -1,22 +1,23 @@
 # Progetto Sito Web Lego
 
 ## Descrizione del Progetto
-Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEGO, pensato per offrire agli utenti un’esperienza completa: dalla scoperta dei prodotti alla possibilità di acquistare singoli pezzi, fino alla visione di creazioni Lego.
+Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEGO, pensato per offrire agli utenti un’esperienza completa: dalla scoperta dei prodotti alla possibilità di cercare i singoli pezzi, fino alla visione di creazioni Lego.
 
 ### Funzionalità principali
 #### Autenticazione Utente
 - Registrazione
 - Accesso (Login)
+- Logout
 
 #### Gestione Set LEGO
 - Possibilità di aggiungere nuovi Set LEGO
 - Possibilità di eliminare i Set già esistenti
+- Possibilità di modificare i Set
 
 #### Catalogo e acquisto singoli pezzi
 - Catalogo dedicato ai singoli mattoncini
-- Disponibilità di diversi colori, minifigures e botanica
-- Ricerca dei pezzi specifici 
-- Selezione dei componenti per l'acquisto
+- Disponibilità di diversi colori
+- Ricerca dei pezzi specifici
 
 ### Contenuti aggiuntivi
 #### Sezione Storia LEGO
@@ -43,4 +44,4 @@ Questo progetto consiste nello sviluppo di un sito web dedicato al mondo dei LEG
 #### 4. Apri il browser e vai su:
 - http://127.0.0.1:5000/
 
-Io non ho fatto il deploy del progetto
+Io non ho fatto il deploy
