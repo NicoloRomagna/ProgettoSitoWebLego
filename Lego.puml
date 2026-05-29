@@ -1,0 +1,53 @@
+@startuml
+left to right direction
+skinparam shadowing false
+skinparam packageStyle rectangle
+
+actor Utente
+actor Amministratore
+
+package "Autenticazione" {
+  (Registrazione) as UC1
+  (Login) as UC2
+  (Logout) as UC3
+}
+
+package "Catalogo Set LEGO" {
+  (Visualizza Set) as UC4
+  (Elimina Set) as UC5
+  (Modifica Set) as UC6
+  (Aggiungi Set) as UC7
+}
+
+package "Catalogo Pezzi" {
+  (Accede a Catalogo) as UC8
+  (Visualizza Pezzi) as UC9
+}
+
+package "Contenuti e Tutorial" {
+  (Immagini Invenzioni) as UC10
+  (Storia LEGO) as UC11
+}
+
+UC7 ..> UC4 : <<include>> ' Aggiunta obbligatoria per vedere i set
+
+UC5 ..> UC4 : <<extend>>  ' Eliminazione set è opzionale
+UC6 ..> UC4 : <<extend>>  ' Modifica set è opzionale
+
+Utente --> UC1
+Utente --> UC2
+Utente --> UC3
+
+Utente --> UC4
+Utente --> UC8
+Utente --> UC10
+Utente --> UC11
+
+Amministratore --> UC2
+Amministratore --> UC3
+Amministratore --> UC4
+Amministratore --> UC5
+Amministratore --> UC6
+Amministratore --> UC7
+
+@enduml
