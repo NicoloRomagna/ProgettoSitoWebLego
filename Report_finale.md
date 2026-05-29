@@ -37,7 +37,7 @@ L’idea è permettere agli utenti di:
 - SQLite
 
 #### Installazione e Avvio
-##### 1. Clonare il repository:
+##### 1. Clonare il repository e aprirlo in VSCode:
 - git clone https://github.com/NicoloRomagna/ProgettoSitoWebLego.git
 ##### 2. Installare le dipendenze:
 - pip install flask, flask_login e flask_sqlalchemy
@@ -48,4 +48,4 @@ L’idea è permettere agli utenti di:
 ##### 4. Aprire il browser e andare su:
 http://127.0.0.1:5000/
 
-###### Io non ho fatto il deploy.
+###### 5. Io non ho fatto il deploy.
