@@ -48,4 +48,4 @@ L’idea è permettere agli utenti di:
 ##### 4. Aprire il browser e andare su:
 http://127.0.0.1:5000/
 
-###### 5. Io non ho fatto il deploy.
+###### 5. Io non ho fatto il deploy del progetto.
