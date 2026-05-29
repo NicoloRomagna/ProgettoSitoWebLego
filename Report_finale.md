@@ -3,7 +3,7 @@
 Ho realizzato un sito web dedicato ai LEGO.
 L’idea è permettere agli utenti di:
 - Vedere i set LEGO
-- Cercare e singoli mattoncini
+- Cercare singoli mattoncini
 - Leggere informazioni sulla storia LEGO
 - Osservare le varie creazioni
 
@@ -16,11 +16,11 @@ L’idea è permettere agli utenti di:
 ### Gestione Set LEGO
 - Aggiunta nuovi set
 - Eliminazione set
-- Dettagli del set (Modifica)
+- Modifica set
 
 ### Catalogo Mattoncini
 - Lista di mattoncini
-- divisione in colori
+- divisione per colori
 - Ricerca dei singoli pezzi
 
 ### Contenuti Extra
